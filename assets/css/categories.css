@@ -56,3 +56,33 @@
 .categories .carousel-control-next {
     right: 10px;
 }
+
+.cat_products{
+    display: flex;
+    gap:15px
+}
+
+.categoriaList{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 1px solid #ccc;
+}
+
+.categoriaList ul{
+    list-style: none;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.categoriaList ul li a{
+   color: #333;
+   text-decoration: none;
+   transition: all 1s ease;
+}
+.categoriaList ul li a:hover{
+   color: var(--azul);
+   text-decoration: none;
+   transform: translateY(20px);
+}
