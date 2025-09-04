@@ -1,0 +1,17 @@
+.recomendado{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list_products{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media(max-width:768px){
+.list_products{
+    flex-direction: column;
+}
+
+}

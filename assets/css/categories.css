@@ -1,0 +1,58 @@
+.categories {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#categoryCarousel {
+    position: relative;
+    padding: 20px 0;
+}
+
+.category-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.category-title {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(44, 62, 80, 0.7);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.categories .carousel-control-prev,
+.categories .carousel-control-next {
+    width: 40px;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+
+.categories .carousel-control-prev {
+    left: 10px;
+}
+
+.categories .carousel-control-next {
+    right: 10px;
+}

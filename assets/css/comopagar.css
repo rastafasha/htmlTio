@@ -1,0 +1,35 @@
+.como_pagar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.paso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paso_imagen{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.paso_imagen img{
+    display: block;
+    width: 100%;
+}
+
+@media(max-width:768px){
+.como_pagar{
+    flex-direction: column;
+}
+
+}
