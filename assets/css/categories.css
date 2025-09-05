@@ -68,6 +68,8 @@
     flex-direction: column;
     justify-items: center;
     border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 420px;
 }
 
 .categoriaList ul{
@@ -79,10 +81,11 @@
 .categoriaList ul li a{
    color: #333;
    text-decoration: none;
+   padding-left: 0px;
    transition: all 1s ease;
 }
 .categoriaList ul li a:hover{
    color: var(--azul);
    text-decoration: none;
-   transform: translateY(20px);
+   padding-left: 10px;
 }

@@ -1,0 +1,98 @@
+.bordetop{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 120px;
+    width: 100vw;
+
+}
+
+.contenido_footer{
+background-color: var(--azulclaro);
+    display: flex;
+    padding:30px;
+    align-items: center;
+    width: 100vw;
+    color: #f2f2f2;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    color: #f2f2f2;
+    gap: 15px;
+
+}
+
+footer:nth-child(3){
+    color: #f2f2f2;
+}
+
+.menu_footer{
+        display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    gap: 60px;
+    align-items: flex-start;
+    margin-left: 140px;
+
+}
+.cuentas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.cuentas ul li{
+    padding-bottom: 15px;
+    font-size: 14px;
+    
+}
+
+.boletin p,
+.direccion p{
+    color: #f2f2f2;
+}
+.boletin h4,
+.cuentas h4{
+    color: #f2f2f2;
+}
+
+.creditos{
+ background-color: var(--azul);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;   
+}
+
+.contact_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logos_app{
+   display: flex;
+   justify-content: start;
+   gap: 15px; 
+}
+
+.boletin{
+    display: flex;
+    flex-direction: column;
+    color: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.creditos p{
+    color: #f2f2f2;
+    font-size: 12px;
+}
+
+

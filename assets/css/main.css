@@ -6,17 +6,19 @@
 @import './product.css';
 @import './comopagar.css';
 @import './banner.css';
+@import './footer.css';
 
 * { box-sizing: border-box; }
 :root{
     
-    --azul: #29336D;
+    --azul: #041A52;
+    --azulclaro: #29336D;
     --rojo: #D5232D;
     --gris: #F1F1F1;
 
 }
 body{
-    background: #f2f2f2;
+    background: #f5f5f5 !important;
 }
 p{
     color: #333;
@@ -24,6 +26,9 @@ p{
 h1, h2, h3, h4, h5, h6{
     color: var(--azul);
     font-weight: bold;
+}
+h5{
+    font-size: 18px !important;
 }
 .text-azul{
     color: var(--azul);
@@ -52,13 +57,6 @@ h1, h2, h3, h4, h5, h6{
     height: auto;
 }
 
-@media(max-width:768px){
-   .logo img{
-   width: 90px;
-    height: auto;
-}
-
-}
 
 .marcas{
     display: flex;
@@ -67,3 +65,16 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+@media(max-width:768px){
+   .logo img{
+   width: 90px;
+    height: auto;
+}
+
+.marcas{
+    flex-direction: column;
+}
+
+}
+

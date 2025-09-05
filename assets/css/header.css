@@ -19,6 +19,10 @@
     background-color: var(--azul) !important;
 } 
 
+.dropdown-item{
+    padding-bottom: 10px;
+}
+
 .navbar-toggler-icon{
     color: #fff;
     background-color: #fff;

@@ -4,8 +4,12 @@
     align-items: center;
     gap: 15px;
     flex-direction: row;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 30px;
 }
 
 .option_info{
@@ -14,11 +18,17 @@
 
 }
 
+
+
 .option_info h5,
 .option_info p{
     margin: 0;
     padding: 0;
 
+}
+
+.option_info p{
+    font-size: 14px;
 }
 
 .icono{
