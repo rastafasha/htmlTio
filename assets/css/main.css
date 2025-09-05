@@ -7,8 +7,17 @@
 @import './comopagar.css';
 @import './banner.css';
 @import './footer.css';
+@import './normalize.css';
 
-* { box-sizing: border-box; }
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 :root{
     
     --azul: #041A52;
@@ -62,8 +71,13 @@ h5{
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.marcas img{
+    margin: 0;
+    padding: 0;
 }
 
 @media(max-width:768px){

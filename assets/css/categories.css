@@ -1,5 +1,5 @@
 .categories {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
@@ -13,9 +13,10 @@
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     padding: 15px;
-    width: 120px;
+    width: 210px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    
 }
 
 .category-card:hover {
@@ -34,6 +35,21 @@
     color: #2c3e50;
 }
 
+.categories .carousel-indicators{
+    /* background: var(--azul); */
+    transform: translateY(30px);
+}
+.carousel .carousel-indicators li,
+.categories .carousel-indicators li{
+    background: var(--azulclaro);
+    color: var(--azulclaro);
+    border-radius: 8px;
+}
+.categories .carousel-indicators li:active{
+    /* background: var(--azulclaro); */
+    color: var(--azul);
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgba(44, 62, 80, 0.7);
@@ -45,16 +61,19 @@
 .categories .carousel-control-prev,
 .categories .carousel-control-next {
     width: 40px;
+    
     /* top: 50%; */
     /* transform: translateY(-50%); */
 }
 
 .categories .carousel-control-prev {
     left: 10px;
+    color: var(--azul) !important;
 }
 
 .categories .carousel-control-next {
     right: 10px;
+    color: var(--azul) !important;
 }
 
 .cat_products{

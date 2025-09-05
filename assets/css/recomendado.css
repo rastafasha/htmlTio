@@ -1,6 +1,6 @@
 .recomendado{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .list_products{
@@ -10,8 +10,11 @@
 }
 
 @media(max-width:768px){
-.list_products{
-    flex-direction: column;
-}
+    .list_products{
+        flex-direction: row;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
 
 }

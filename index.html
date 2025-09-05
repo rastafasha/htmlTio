@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container-fluid">
             <!-- tope_menu -->
             <div class="tope_menu">
                 <div class="lang">
@@ -34,6 +34,15 @@
                         <li class="nav-item">
                             <a class="nav-link "><i class="fa fa-user"></i> Sign in</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false"><i class="fa fa-shopping-cart"></i> </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Product info</a>
+                                <a class="dropdown-item" href="#">$0.00</a>
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -62,7 +71,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="info_adicional">
+                <!-- <div class="info_adicional">
                     <div class="telefono">
                         <h5>CallUs Now</h5>
                         <p>+58000000000</p>
@@ -71,13 +80,13 @@
                         <i class="fa fa-shopping-cart"></i>
                         <p>$00.00</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <nav class="navbar navbar-expand-lg nav-bar ">
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <button class="navbar-toggler" style="background: var(--azulclaro);" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon nav-bar"></span>
             </button>
@@ -189,8 +198,8 @@
                     <img src="./assets/svg/CASH-BACK.svg" alt="">
                 </div>
                 <div class="info">
-                    <h5>Garantia de Devolucion</h5>
-                    <p>Cualquier devolucion en 30 dias</p>
+                    <h5>Garantía de Devolución</h5>
+                    <p>Cualquier devolución en 30 dias</p>
                 </div>
             </div>
         </div>
@@ -200,7 +209,12 @@
     <section class="container-fluid">
         <div class="categories">
             <h1 class="text-center">Categorías</h1>
+            <br>
             <div id="categoryCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                 <ol class="carousel-indicators">
+            <li data-target="#categoryCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#categoryCarousel" data-slide-to="1"></li>
+        </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-start">
@@ -228,30 +242,32 @@
                                 <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
                                 <h5 class="category-title">Estilo de Vida</h5>
                             </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-start">
                             <div class="category-card text-center">
                                 <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
                                 <h5 class="category-title">Festejo</h5>
                             </div>
                             <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ninos.jpg" alt="Niños" class="category-image">
-                                <h5 class="category-title">Niños</h5>
+                                <img src="./assets/images/ninos.jpg" alt="Perfumes" class="category-image">
+                                <h5 class="category-title">Perfumes</h5>
                             </div>
                             <div class="category-card text-center mr-3">
-                                <img src="./assets/images/hogar.jpg" alt="Hogar" class="category-image">
-                                <h5 class="category-title">Hogar</h5>
+                                <img src="./assets/images/hogar.jpg" alt="Accesorios" class="category-image">
+                                <h5 class="category-title">Accesorios</h5>
                             </div>
                             <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ferreteria1.jpg" alt="Ferretería" class="category-image">
-                                <h5 class="category-title">Ferretería</h5>
+                                <img src="./assets/images/ferreteria1.jpg" alt="Juguetes" class="category-image">
+                                <h5 class="category-title">Juguetes</h5>
                             </div>
                             <div class="category-card text-center">
-                                <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
-                                <h5 class="category-title">Estilo de Vida</h5>
+                                <img src="./assets/images/festejos.jpg" alt="Escolar" class="category-image">
+                                <h5 class="category-title">Escolar</h5>
                             </div>
-                            <div class="category-card text-center">
-                                <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
-                                <h5 class="category-title">Festejo</h5>
-                            </div>
+                            
                         </div>
                     </div>
                     <!-- Additional carousel items can be added here if needed -->

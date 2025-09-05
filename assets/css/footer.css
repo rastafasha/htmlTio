@@ -2,9 +2,9 @@
     background-color: var(--azul);
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 40px;
     align-items: center;
-    height: 120px;
+    /* height: 120px; */
     width: 100vw;
 
 }
@@ -96,3 +96,25 @@ footer:nth-child(3){
 }
 
 
+
+@media (max-width:768px){
+    .contenido_footer,
+    .bordetop,
+    .menu_footer {
+    flex-direction: column;
+    }
+
+    .contenido_footer{
+        align-items: start;
+    }
+
+    .menu_footer{
+        margin-left: 0;
+    }
+
+    .redes {
+    padding: 20px;
+}
+
+
+}
