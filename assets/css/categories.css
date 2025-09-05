@@ -104,7 +104,7 @@
     justify-items: center;
     border: 1px solid #ccc;
     border-radius: 16px;
-    width: 420px;
+    width: 270px;
 }
 
 .categoriaList ul{
@@ -117,7 +117,7 @@
    color: #333;
    text-decoration: none;
    padding-left: 0px;
-   transition: all 1s ease;
+   transition: all .3s ease;
 }
 .categoriaList ul li a:hover{
    color: var(--azul);

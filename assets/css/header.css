@@ -33,6 +33,16 @@
     justify-content: end;
 }
 
+.tope_menu i{
+    color: var(--azul);
+}
+
+.tope_menu .nav-link{
+    padding: .5rem .4rem;
+}
+
+
+
 
 .lang .nav-item a{
      color: #333;
