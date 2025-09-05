@@ -68,7 +68,7 @@
 
 @media(max-width:768px){
     .content_header{
-        flex-direction: column;
+        flex-direction: row;
     }
 
         .info_adicional{

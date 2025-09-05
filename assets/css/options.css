@@ -40,6 +40,9 @@
    .options{
     flex-direction: row
     }
+    .option_info {
+    align-self: normal;
+}
 }
 
 @media(max-width:576px){
