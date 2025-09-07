@@ -87,9 +87,22 @@
     border: 2px solid var(--azul);
 }
 
+.list_productsCategories{
+   width: 100vw;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
 @media (max-width:768px){
     .rating {
         flex-direction: column;
+}
+
+.item_product {
+    width: 162px;
 }
 
 }

@@ -36,6 +36,7 @@
 
 p{
     color: #333;
+    font-size: 14px;
 }
 h1, h2, h3, h4, h5, h6{
     color: var(--azul);
@@ -86,8 +87,11 @@ h5{
 }
 
 .marcas img{
-    margin: 0;
+   /* margin: 0; */
     padding: 0;
+    width: 70%;
+    margin: auto;
+    display: block;
 }
 
 .search{

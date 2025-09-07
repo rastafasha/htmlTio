@@ -1,6 +1,6 @@
 .categories {
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 #categoryCarousel {
@@ -35,6 +35,14 @@
     color: #2c3e50;
 }
 
+.carousel-items{
+    height: 14vh;
+    width: 97vw;
+    overflow: hidden;
+    overflow-x: scroll;
+        /* padding: 0 80px; */
+}
+
 @media (max-width: 768px) {
     .category-card {
         width: 140px;
@@ -49,6 +57,15 @@
     .category-title {
         font-size: 14px;
     }
+
+    .carousel-items {
+    padding: 0 20px;
+}
+
+.categoriaList {
+    padding: 10px;
+    width: 250px;
+}
 }
 
 .categories .carousel-indicators{
@@ -125,10 +142,10 @@
    padding-left: 10px;
 }
 
-.carousel-items{
-    height: 30vh;
-    width: 100vw;
-    overflow: hidden;
-    overflow-x: scroll;
-        padding: 0 80px;
+
+
+@media (max-width:768px){
+    .categoriaList ul li a {
+        font-size: 14px;
+    }
 }

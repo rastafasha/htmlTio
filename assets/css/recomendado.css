@@ -4,11 +4,15 @@
 }
 
 .list_products{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     gap: 20px;
     overflow: hidden;
     overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
 }
 
 
