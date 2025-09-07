@@ -61,10 +61,10 @@
 
             <div class="content_header">
                 <div class="logo">
-                    <img src="./assets/images/LOGO_VECTOR_sin.png" alt="">
+                    <a href="index.html"><img src="./assets/images/LOGO_VECTOR_sin.png" alt=""></a>
                 </div>
                 <div class="logodark">
-                    <img src="./assets/svg/Logo-blanco.svg" alt="">
+                    <a href="index.html"><img src="./assets/svg/Logo-blanco.svg" alt=""></a>
                 </div>
 
                 <a href="javascript:void(0)" class="sidemenu-toggler">
@@ -122,12 +122,12 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="/app/legal">
+                                <a href="/index.html">
                                     <i class="fa fa-home"></i>&nbsp; Home
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/app/legal">
+                                <a href="/about.html">
                                     <i class="fa fa-info"></i>&nbsp; About Us
                                 </a>
                             </li>
@@ -191,7 +191,7 @@
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fa fa-home"></i> Home <span
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
@@ -215,10 +215,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-cog"></i> Products</a>
+                        <a class="nav-link" href="productos.html"><i class="fa fa-cog"></i> Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-cog"></i> About Us</a>
+                        <a class="nav-link" href="about.html"><i class="fa fa-cog"></i> About Us</a>
                     </li>
 
 
@@ -827,33 +827,21 @@
                 <img src="./assets/svg/hogar.svg" alt="">
                 <p>Home</p>
             </a>
-            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/']" routerLinkActive="active"
+            <a *ngIf="!patient" href="productos.html" routerLinkActive="active"
                 class="modal-footer-staff">
                 <img src="./assets/svg/prismaticos.svg" alt="">
                 <p>Products </p>
             </a>
-            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/']" routerLinkActive="active"
+            <a *ngIf="!patient" href="categories.html" routerLinkActive="active"
                 class="modal-footer-staff">
                 <img src="./assets/svg/editar.svg" alt="">
                 <p>Categorías </p>
             </a>
-            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/', user.id]" routerLinkActive="active"
+            <a *ngIf="!patient" href="buscar.html" routerLinkActive="active"
                 class="modal-footer-staff">
                 <img src="./assets/svg/prismaticos.svg" alt="">
                 <p>Buscar </p>
             </a>
-            <!-- <a *ngIf="patient"  routerLink="/app/lista" routerLinkActive="active" class="modal-footer-staff">
-            <img src="./assets/svg/prismaticos.svg" alt="">
-            <p>Lista </p>
-        </a> -->
-            <!-- <a  *ngIf="patient" routerLink="/app/mis-pagos" routerLinkActive="active" class="modal-footer-topics">
-            <img src="./assets/svg/pagos.svg" alt="">
-            <p>Cupon</p>
-        </a> -->
-            <!-- <a routerLink="/app/perfil" routerLinkActive="active" class="modal-footer-follow">
-                <img src="./assets/svg/agregar-usuario.svg" alt="">
-                <p>Soporte</p>
-            </a> -->
 
         </div>
     </div>
@@ -868,7 +856,6 @@
     <script src="./assets/js/darkmode.js"></script>
 
     <script src="./assets/js/header.js"></script>
-    <!-- <script src="./assets/js/fucntions.js"></script> -->
     <script>
         $(document).ready(function () {
             $(".sidemenu-toggler").click(function () {
