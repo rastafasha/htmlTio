@@ -8,6 +8,9 @@
 @import './banner.css';
 @import './footer.css';
 @import './darkmode.css';
+@import './menu-movil.css';
+@import './menulateral.css';
+@import './buttonup.css';
 @import './normalize.css';
 
 *,
@@ -55,8 +58,10 @@ h5{
       font-size: 16px;
       background-color: var(--fondopage);
 }
- 
-.logodark,
+.logodark{
+    display: none;
+}
+
 .logo{
     padding-top: 0px;
     padding-bottom: 20px;
@@ -85,6 +90,10 @@ h5{
     padding: 0;
 }
 
+.search{
+    display: block;
+}
+
 @media(max-width:768px){
    .logo img{
    width: 90px;
@@ -93,6 +102,9 @@ h5{
 
 .marcas{
     flex-direction: column;
+}
+.search{
+    display: none;
 }
 
 }

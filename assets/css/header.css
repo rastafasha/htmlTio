@@ -84,4 +84,7 @@
         .info_adicional{
         width: 100%;
     }
+    .nav-bar{
+    display: none !important;
+    }
 }

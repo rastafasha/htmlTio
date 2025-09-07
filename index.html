@@ -11,9 +11,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 </head>
 
 <body class="body">
+    <a href="javascript:void(0)" class="button-up" onclick="scrollToTop()">
+        <i class="fa fa-arrow-up"></i>
+    </a>
     <header class="header">
         <div class="container">
             <!-- tope_menu -->
@@ -22,31 +26,28 @@
                     <ul class="nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false"><i class="fa fa-shopping-cart"></i> </a>
+                            <div class="dropdown-menu">
+                                <!-- <a class="dropdown-item" href="#">Product info</a> -->
+                                <a class="dropdown-item" href="#">$0.00</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                 aria-expanded="false"><i class="fa fa-flag"></i> </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Esp</a>
                                 <a class="dropdown-item" href="#">Eng</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#" onclick="toggleDarkMode()"> <i class="fa fa-moon"></i> </a>
 
-                            <!-- <button onclick="toggleDarkMode()" class="nav-link">
-                                <i class="fas fa-sun"></i>
-                                <i class="fa fa-moon"></i>
-                            </button> -->
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#"> <i class="fa fa-phone"></i> </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false"><i class="fa fa-shopping-cart"></i> </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Product info</a>
-                                <a class="dropdown-item" href="#">$0.00</a>
-                            </div>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link "><i class="fa fa-user-circle"></i> </a>
                         </li>
@@ -56,6 +57,8 @@
                 </div>
             </div>
 
+
+
             <div class="content_header">
                 <div class="logo">
                     <img src="./assets/images/LOGO_VECTOR_sin.png" alt="">
@@ -63,6 +66,11 @@
                 <div class="logodark">
                     <img src="./assets/svg/Logo-blanco.svg" alt="">
                 </div>
+
+                <a href="javascript:void(0)" class="sidemenu-toggler">
+                    <i class="fa fa-bars"></i>
+                </a>
+
                 <div class="search">
                     <form class="form-horizontal">
                         <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
@@ -92,8 +100,86 @@
                         <p>$00.00</p>
                     </div>
                 </div> -->
+
+
+            </div>
+
+
+
+            <div class="menuright">
+
+                <div class="sidemenu">
+                    <div>
+                        <img src="./assets/svg/user-login.svg" alt="">
+                    </div>
+                    <a href="javascript:void(0)" (click)="closeMenu()" class="close"></a>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/app/home">
+                                    <i class="fa fa-info-circle"></i>&nbsp;Hola, Usuario!
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="/app/legal">
+                                    <i class="fa fa-home"></i>&nbsp; Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/app/legal">
+                                    <i class="fa fa-info"></i>&nbsp; About Us
+                                </a>
+                            </li>
+
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa fa-cog"></i> Categories
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Cuidado Personal</a>
+                                    <a class="dropdown-item" href="#">Damas</a>
+                                    <a class="dropdown-item" href="#">Caballeros</a>
+                                    <a class="dropdown-item" href="#">Niños</a>
+                                    <a class="dropdown-item" href="#">Perfumes</a>
+                                    <a class="dropdown-item" href="#">Accesorios</a>
+                                    <a class="dropdown-item" href="#">Hogar</a>
+                                    <a class="dropdown-item" href="#">Juguetes</a>
+                                    <a class="dropdown-item" href="#">Escolar</a>
+                                    <a class="dropdown-item" href="#">Estilo de Vida</a>
+                                    <a class="dropdown-item" href="#">Ferretería</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-cog"></i> Products</a>
+                            </li> -->
+
+                            <li class="nav-item">
+                                <a href="/app/ayuda">
+                                    <i class="fa fa-life-ring"></i>&nbsp; Ayuda en Línea
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a href="/app/legal">
+                                    <i class="fa fa-balance-scale"></i>&nbsp; Información legal
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a>
+                                    <i class="fa fa-sign-out"></i>&nbsp; Salir
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
             </div>
         </div>
+
 
         <nav class="navbar navbar-expand-lg nav-bar ">
             <a class="navbar-brand" href="#"></a>
@@ -139,6 +225,8 @@
                 </ul>
             </div>
         </nav>
+
+
 
 
     </header>
@@ -222,76 +310,55 @@
         <div class="categories">
             <h1 class="text-center">Categorías</h1>
             <br>
-            <div id="categoryCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-                <ol class="carousel-indicators">
-                    <li data-target="#categoryCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#categoryCarousel" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-start">
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/damas2.jpg" alt="Damas" class="category-image">
-                                <h5 class="category-title">Damas</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/caballeros.jpg" alt="Caballeros" class="category-image">
-                                <h5 class="category-title">Caballeros</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ninos.jpg" alt="Niños" class="category-image">
-                                <h5 class="category-title">Niños</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/hogar.jpg" alt="Hogar" class="category-image">
-                                <h5 class="category-title">Hogar</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ferreteria1.jpg" alt="Ferretería" class="category-image">
-                                <h5 class="category-title">Ferretería</h5>
-                            </div>
-                            <div class="category-card text-center">
-                                <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
-                                <h5 class="category-title">Estilo de Vida</h5>
-                            </div>
-
-                        </div>
+            <div class="carousel-items ">
+                <div class="d-flex justify-content-start">
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/damas2.jpg" alt="Damas" class="category-image">
+                        <h5 class="category-title">Damas</h5>
                     </div>
-                    <div class="carousel-item ">
-                        <div class="d-flex justify-content-start">
-                            <div class="category-card text-center">
-                                <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
-                                <h5 class="category-title">Festejo</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ninos.jpg" alt="Perfumes" class="category-image">
-                                <h5 class="category-title">Perfumes</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/hogar.jpg" alt="Accesorios" class="category-image">
-                                <h5 class="category-title">Accesorios</h5>
-                            </div>
-                            <div class="category-card text-center mr-3">
-                                <img src="./assets/images/ferreteria1.jpg" alt="Juguetes" class="category-image">
-                                <h5 class="category-title">Juguetes</h5>
-                            </div>
-                            <div class="category-card text-center">
-                                <img src="./assets/images/festejos.jpg" alt="Escolar" class="category-image">
-                                <h5 class="category-title">Escolar</h5>
-                            </div>
-
-                        </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/caballeros.jpg" alt="Caballeros" class="category-image">
+                        <h5 class="category-title">Caballeros</h5>
                     </div>
-                    <!-- Additional carousel items can be added here if needed -->
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/ninos.jpg" alt="Niños" class="category-image">
+                        <h5 class="category-title">Niños</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/hogar.jpg" alt="Hogar" class="category-image">
+                        <h5 class="category-title">Hogar</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/ferreteria1.jpg" alt="Ferretería" class="category-image">
+                        <h5 class="category-title">Ferretería</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/festejos.jpg" alt="Estilo de Vida" class="category-image">
+                        <h5 class="category-title">Estilo de Vida</h5>
+                    </div>
+
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/festejos.jpg" alt="Festejo" class="category-image">
+                        <h5 class="category-title">Festejo</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/ninos.jpg" alt="Perfumes" class="category-image">
+                        <h5 class="category-title">Perfumes</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/hogar.jpg" alt="Accesorios" class="category-image">
+                        <h5 class="category-title">Accesorios</h5>
+                    </div>
+                    <div class="category-card text-center mr-3">
+                        <img src="./assets/images/ferreteria1.jpg" alt="Juguetes" class="category-image">
+                        <h5 class="category-title">Juguetes</h5>
+                    </div>
+                    <div class="category-card text-center">
+                        <img src="./assets/images/festejos.jpg" alt="Escolar" class="category-image">
+                        <h5 class="category-title">Escolar</h5>
+                    </div>
+
                 </div>
-                <a class="carousel-control-prev" href="#categoryCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#categoryCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                </a>
             </div>
         </div>
     </section>
@@ -614,6 +681,36 @@
                     </div>
                     <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button>
                 </div>
+                <div class="item_product">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="imagen_product">
+                        <img src="./assets/images/product.jpeg" alt="">
+                    </div>
+                    <div class="product_title">Summer Clothes 3x</div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="votes">
+                            (6 opinionesS)
+                        </div>
+                    </div>
+                    <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button>
+                </div>
             </div>
         </div>
 
@@ -723,6 +820,43 @@
         </div>
     </footer>
 
+    <!---menu movil footer-->
+    <div class="foot">
+        <div class="navbarM ">
+            <a routerLink="/app/home" routerLinkActive="active">
+                <img src="./assets/svg/hogar.svg" alt="">
+                <p>Home</p>
+            </a>
+            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/']" routerLinkActive="active"
+                class="modal-footer-staff">
+                <img src="./assets/svg/prismaticos.svg" alt="">
+                <p>Products </p>
+            </a>
+            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/']" routerLinkActive="active"
+                class="modal-footer-staff">
+                <img src="./assets/svg/editar.svg" alt="">
+                <p>Categorías </p>
+            </a>
+            <a *ngIf="!patient" [routerLink]="['/app/agendar-cita/', user.id]" routerLinkActive="active"
+                class="modal-footer-staff">
+                <img src="./assets/svg/prismaticos.svg" alt="">
+                <p>Buscar </p>
+            </a>
+            <!-- <a *ngIf="patient"  routerLink="/app/lista" routerLinkActive="active" class="modal-footer-staff">
+            <img src="./assets/svg/prismaticos.svg" alt="">
+            <p>Lista </p>
+        </a> -->
+            <!-- <a  *ngIf="patient" routerLink="/app/mis-pagos" routerLinkActive="active" class="modal-footer-topics">
+            <img src="./assets/svg/pagos.svg" alt="">
+            <p>Cupon</p>
+        </a> -->
+            <!-- <a routerLink="/app/perfil" routerLinkActive="active" class="modal-footer-follow">
+                <img src="./assets/svg/agregar-usuario.svg" alt="">
+                <p>Soporte</p>
+            </a> -->
+
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -731,7 +865,54 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
-        <script src="./assets/js/darkmode.js"></script>
+    <script src="./assets/js/darkmode.js"></script>
+
+    <script src="./assets/js/header.js"></script>
+    <!-- <script src="./assets/js/fucntions.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            $(".sidemenu-toggler").click(function () {
+                $(".sidemenu").addClass("active");
+            });
+
+            $(".close").click(function () {
+                $(".sidemenu").removeClass("active");
+            });
+
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('.button-up').removeClass('button-inactive');
+                } else {
+                    $('.button-up').addClass('button-inactive');
+                }
+            });
+
+            $(".button-up").click(function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+
+
+
+            // $(window).scroll(function () {
+            //     if ($(this).scrollTop() > 0) {
+            //         $('.header').addClass('header2');
+            //     } else {
+            //         $('.header').removeClass('header2');
+            //     }
+            // });
+
+            // $(window).scroll(function () {
+            //     if ($(this).width() < 700) {
+            //         $('header').addClass('header4');
+            //         $('header').removeClass('header2');
+            //     }
+            // });
+
+
+        });
+    </script>
 </body>
 
 

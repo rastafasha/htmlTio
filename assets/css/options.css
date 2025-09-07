@@ -27,8 +27,13 @@
 
 }
 
+.option_info h5{
+    font-size: 14px;
+    color: var(--azul);
+}
 .option_info p{
     font-size: 14px;
+    color: var(--black);
 }
 
 .icono{

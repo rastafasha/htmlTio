@@ -124,3 +124,11 @@
    text-decoration: none;
    padding-left: 10px;
 }
+
+.carousel-items{
+    height: 30vh;
+    width: 100vw;
+    overflow: hidden;
+    overflow-x: scroll;
+        padding: 0 80px;
+}

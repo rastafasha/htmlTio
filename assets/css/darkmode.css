@@ -102,18 +102,7 @@
     color: var(--white) !important;
 }
 
-.dark-mode p,
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode b,
-.dark-mode label,
-.dark-mode .nav-tabs-bordered .nav-link,
-.dark-mode .profile .profile-overview .label,
-.dark-mode label i {
-    color: var(--white);
-}
+
 
 .dark-mode .dropdown-menu {
     background: rgba(0, 0, 0, 0.9);
@@ -186,101 +175,13 @@ body .dark-mode {
 }
 
 
-/* acordion */
-
-.dark-mode .accordion-button,
-.dark-mode .accordion-body {
-    color: var(--white);
-    background-color: var(--black);
+.dark-mode .categoriaList ul li a{
+   color: var(--fondopage);
 }
 
-.dark-mode .loginregister {
-    background: var(--black) !important;
-}
-
-.dark-mode .loginregister .main {
-    background: var(--black) !important;
-    border: 1px solid var(--white) !important;
-}
-
-.dark-mode .swal2-popup.swal2-toast {
-    background: var(--black);
-}
-
-.dark-mode .profile .profile-edit label {
-    font-weight: 600;
-    color: var(--white);
-}
-
-
-/* cart */
-
-.dark-mode .header__cart img.ligth {
-    display: none;
-}
-
-.dark-mode .header__cart img.dark-modeer {
-    display: block;
-}
-
-.dark-mode .header__cart--notification {
-    background-color: var(--white);
-    color: var(--black);
-}
-
-.dark-mode .cart-modal--active {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-.dark-mode .cart-modal__price span {
-    color: var(--white);
-}
-
-.dark-mode .profile .profile-card .social-links a {
-    color: var(--white);
-}
-
-.dark-mode .historial ul li a {
-    color: var(--white) !important;
-}
-
-.dark-mode .historial ul li a:hover {
-    color: var(--white) !important;
-    background-color: var(--black) !important;
-}
-
-.dark-mode .page-wrapper,
-.dark-mode .footer {
-    background-color: var(--black);
-}
-
-.dark-mode .page-wrapper {
-    background-color: var(--black);
-}
-
-.dark-mode .footer small {
-    color: var(--white) !important;
-}
-
-.dark-mode .logo-text-dark {
-    display: none;
-}
-
-.dark-mode .logo-text-light {
-    display: block;
-}
-
-.dark-mode .card-no-border .left-sidebar,
-.dark-mode .card-no-border .sidebar-nav {
-    background-color: var(--black) !important;
-    background: var(--black) !important;
-}
-
-.dark-mode .navbarM a{
-    background-color: var(--black);
-}
-
-.dark-mode .navbarM{
-    background-color: var(--blackOscuro);
+.dark-mode .options{
+    
+    background-color: #222121;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 30px;
 }
