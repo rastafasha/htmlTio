@@ -155,7 +155,10 @@ footer:nth-child(3) {
     .bordetop {
         height: auto;
         justify-content: center;
-
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0 15px;
     }
 
     footer .option_info {
@@ -163,10 +166,8 @@ footer:nth-child(3) {
     }
 
     .menu_footer {
-        display: block;
-        columns: 2;
-        column-gap: 5px;
-        padding: 0;
+       display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .menu_footer h4{
@@ -174,6 +175,10 @@ footer:nth-child(3) {
     }
     .creditos{
         padding-bottom: 60px;
+    }
+
+    .bordetop .logo{
+        padding: 0;
     }
 
 
