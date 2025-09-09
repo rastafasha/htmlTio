@@ -179,7 +179,7 @@
     margin-bottom: 12px;
 }
 
-@media(max-width:768px) {
+@media(max-width:990px) {
     .sidemenu {
         width: 60%;
     }

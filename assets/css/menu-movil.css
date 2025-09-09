@@ -11,13 +11,13 @@
     margin: auto;
 }
 
-@media(min-width:769px) {
+@media(min-width:990px) {
     .navbarM {
         display: none;
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:990px) {
     .foot{
         display: flex;
     justify-content: center;
