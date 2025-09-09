@@ -99,10 +99,26 @@ h5{
     display: block;
 }
 
+.desktop{
+    display: block;
+}
+
+.movil{
+    display: none;
+}
+
 @media(max-width:768px){
    .logo img{
    width: 90px;
     height: auto;
+}
+
+.desktop{
+    display: none;
+}
+
+.movil{
+    display: block;
 }
 
 .marcas{

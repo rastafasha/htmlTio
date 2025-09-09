@@ -112,7 +112,8 @@
 }
 .prices{
     padding-bottom: 0;
-}
+        flex-direction: column;
+    }
 
 .rating{
     gap: 0px;
@@ -120,6 +121,7 @@
 
 .discount{
     top: 0px;
+    height: 30px;
 }
 
 .imagen_product {

@@ -3,3 +3,26 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+
+
+@media (max-width: 768px) {
+   .products .item_product {
+        width: 342px;
+        padding: 10px;
+    }
+   .grid_products {
+        width: 342px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+    }
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+
+    
+}
