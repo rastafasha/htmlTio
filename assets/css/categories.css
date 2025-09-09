@@ -149,6 +149,7 @@
     .carousel-items {
         height: 25vh;
     padding: 0 20px;
+    width: 95vw;
     }
 
     .categoriaList {
