@@ -24,5 +24,10 @@
         overflow-x: scroll;
     }
 
+    .recomendado {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 }

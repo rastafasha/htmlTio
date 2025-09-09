@@ -103,6 +103,30 @@
 
 .item_product {
     width: 162px;
+    padding: 10px;
 }
+
+.product_title {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+.prices{
+    padding-bottom: 0;
+}
+
+.rating{
+    gap: 0px;
+}
+
+.discount{
+    top: 0px;
+}
+
+.imagen_product {
+    position: relative;
+    top: -10px;
+}
+
+
 
 }

@@ -162,6 +162,20 @@ footer:nth-child(3) {
         align-self: center;
     }
 
+    .menu_footer {
+        display: block;
+        columns: 2;
+        column-gap: 5px;
+        padding: 0;
+    }
+
+    .menu_footer h4{
+        font-size: 1.2rem;
+    }
+    .creditos{
+        padding-bottom: 60px;
+    }
+
 
 
 }

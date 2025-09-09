@@ -106,10 +106,32 @@ h5{
 }
 
 .marcas{
-    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
+
+
 .search{
     display: none;
+}
+
+h1 {
+    font-size: 1.5rem !important;
+}
+
+h3 {
+    font-size: 1.35rem !important;
+    padding: 0;
+}
+
+
+.carousel-indicators li {
+    width: 5px !important;
+    height: 2px !important;
+}
+
+.carousel-indicators {
+    bottom: -40px !important;
 }
 
 }

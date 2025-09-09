@@ -109,7 +109,7 @@
     left: 13px;
     height: 28px;
     width: 2px;
-    background: black;
+    background: var(--fondopage)
 }
 
 .sidemenu .close::before {
@@ -186,6 +186,8 @@
     .sidemenu-toggler,
     .sidemenu{
         display: block;
+        font-size: 24px;
+        color: var(--azul);
     }
 }
 
