@@ -141,14 +141,6 @@ h3 {
 }
 
 
-.carousel-indicators li {
-    width: 5px !important;
-    height: 2px !important;
-}
-
-.carousel-indicators {
-    bottom: -40px !important;
-}
 
 }
 
