@@ -85,6 +85,11 @@
     color: var(--azul) !important;
 }
 
+.carousel-indicators li {
+    border-top: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+}
+
 .cat_products{
     display: flex;
     gap:15px
