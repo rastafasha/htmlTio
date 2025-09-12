@@ -47,7 +47,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"> <i class="fa fa-phone"></i> </a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link "><i class="fa fa-user-circle"></i> </a>
                         </li>
@@ -233,28 +233,153 @@
 
 
     <!-- categoria-products -->
-    <section class="container py-4">
-        <div class="products">
-            
-            
-            <div class="item_product">
-                    <div class="discount">
-                        -20%
+    <section class="product">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <img src="./assets/images/product.jpeg" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <h3>Chemise negra, ideal para cualquier ocasión</h3>
+                            <small>calificaciones</small>
+                            <div class="rating">
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="votes">
+                                    (6 opinionesS)
+                                </div>
+                            </div>
+                            <!-- detalles -->
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Colores
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Some placeholder content for the first accordion panel. This panel is shown
+                                            by default, thanks to the <code>.show</code> class.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Tallas disponibles
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Some placeholder content for the second accordion panel. This panel is
+                                            hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Descripción
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            And lastly, the placeholder content for the third and final accordion panel.
+                                            This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                Detalles generales
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            And lastly, the placeholder content for the third and final accordion panel.
+                                            This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="prices">
+                                <div class="price_now">
+                                    Ahora $24.00
+                                </div>
+                                <div class="price_old">
+                                    $26.00
+                                </div>
+                            </div>
+                            <p>precio tienda online</p>
+
+                            <button class="addbutton"> Agregar al Carrito </button>
+                            <h4>Cómo recibirás este artículo: </h4>
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                <p>Quiero Descuento en envio y entrega con</p>
+                            </label>
+                            </div>
+                            <p>Ademas, obtener 3 meses por el precio de 1! Elige un plan al momento de pagar.</p>
+                            <br><br>
+                            <h5>Cómo recibirás este artículo: </h5>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <!-- categoria-products -->
+    <section class="container py-4">
+        <h3>Related Products</h3>
+
+
+        <div class="list_products movil">
+            <div class="item_product grid_products">
+                <div class="div1">
                     <div class="imagen_product">
                         <a href="product.html">
                             <img src="./assets/images/product.jpeg" alt="">
                         </a>
                     </div>
+                </div>
+                <div class="div2">
                     <div class="product_title">Summer Clothes 3x</div>
-                    <div class="prices">
-                        <div class="price_now">
-                            $24.00
-                        </div>
-                        <div class="price_old">
-                            $26.00
-                        </div>
-                    </div>
                     <div class="rating">
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -267,229 +392,194 @@
                             (6 opinionesS)
                         </div>
                     </div>
-                    <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button>
+
+                </div>
+                <div class="div3">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
             </div>
-            
-            
+            <div class="item_product grid_products">
+                <div class="div1">
+                    <div class="imagen_product">
+                        <a href="product.html">
+                            <img src="./assets/images/product.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="product_title">Summer Clothes 3x</div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="votes">
+                            (6 opinionesS)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="div3">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
+            </div>
+            <div class="item_product grid_products">
+                <div class="div1">
+                    <div class="imagen_product">
+                        <a href="product.html">
+                            <img src="./assets/images/product.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="product_title">Summer Clothes 3x</div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="votes">
+                            (6 opinionesS)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="div3">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
+            </div>
+            <div class="item_product grid_products">
+                <div class="div1">
+                    <div class="imagen_product">
+                        <a href="product.html">
+                            <img src="./assets/images/product.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="product_title">Summer Clothes 3x</div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="votes">
+                            (6 opinionesS)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="div3">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
+            </div>
+            <div class="item_product grid_products">
+                <div class="div1">
+                    <div class="imagen_product">
+                        <a href="product.html">
+                            <img src="./assets/images/product.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="product_title">Summer Clothes 3x</div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="votes">
+                            (6 opinionesS)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="div3">
+                    <div class="discount">
+                        -20%
+                    </div>
+                    <div class="prices">
+                        <div class="price_now">
+                            $24.00
+                        </div>
+                        <div class="price_old">
+                            $26.00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
+            </div>
         </div>
 
     </section>
-    <!-- categoria-products -->
-    <section class="container py-4">
-        <h3>Related Products</h3>
-        
 
-       <div class="list_products movil">
-                <div class="item_product grid_products">
-                        <div class="div1">
-                            <div class="imagen_product">
-                                <a href="product.html">
-                                    <img src="./assets/images/product.jpeg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="div2">
-                            <div class="product_title">Summer Clothes 3x</div>
-                            <div class="rating">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="votes">
-                                    (6 opinionesS)
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="div3">
-                            <div class="discount">
-                                -20%
-                            </div>
-                            <div class="prices">
-                                <div class="price_now">
-                                    $24.00
-                                </div>
-                                <div class="price_old">
-                                    $26.00
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
-                    </div>
-                    <div class="item_product grid_products">
-                        <div class="div1">
-                            <div class="imagen_product">
-                                <a href="product.html">
-                                    <img src="./assets/images/product.jpeg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="div2">
-                            <div class="product_title">Summer Clothes 3x</div>
-                            <div class="rating">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="votes">
-                                    (6 opinionesS)
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="div3">
-                            <div class="discount">
-                                -20%
-                            </div>
-                            <div class="prices">
-                                <div class="price_now">
-                                    $24.00
-                                </div>
-                                <div class="price_old">
-                                    $26.00
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
-                    </div>
-                    <div class="item_product grid_products">
-                        <div class="div1">
-                            <div class="imagen_product">
-                                <a href="product.html">
-                                    <img src="./assets/images/product.jpeg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="div2">
-                            <div class="product_title">Summer Clothes 3x</div>
-                            <div class="rating">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="votes">
-                                    (6 opinionesS)
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="div3">
-                            <div class="discount">
-                                -20%
-                            </div>
-                            <div class="prices">
-                                <div class="price_now">
-                                    $24.00
-                                </div>
-                                <div class="price_old">
-                                    $26.00
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
-                    </div>
-                    <div class="item_product grid_products">
-                        <div class="div1">
-                            <div class="imagen_product">
-                                <a href="product.html">
-                                    <img src="./assets/images/product.jpeg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="div2">
-                            <div class="product_title">Summer Clothes 3x</div>
-                            <div class="rating">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="votes">
-                                    (6 opinionesS)
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="div3">
-                            <div class="discount">
-                                -20%
-                            </div>
-                            <div class="prices">
-                                <div class="price_now">
-                                    $24.00
-                                </div>
-                                <div class="price_old">
-                                    $26.00
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
-                    </div>
-                    <div class="item_product grid_products">
-                        <div class="div1">
-                            <div class="imagen_product">
-                                <a href="product.html">
-                                    <img src="./assets/images/product.jpeg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="div2">
-                            <div class="product_title">Summer Clothes 3x</div>
-                            <div class="rating">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="votes">
-                                    (6 opinionesS)
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="div3">
-                            <div class="discount">
-                                -20%
-                            </div>
-                            <div class="prices">
-                                <div class="price_now">
-                                    $24.00
-                                </div>
-                                <div class="price_old">
-                                    $26.00
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <!-- <button class="addbutton"> Agregar <i class="fa fa-shopping-bag"></i></button> -->
-                    </div>
-            </div>
-
-    </section>
-
-    
 
     <footer>
         <div class="bordetop">
@@ -575,19 +665,19 @@
     <!---menu movil footer-->
     <div class="foot">
         <div class="navbarM ">
-             <a href="index.html" >
+            <a href="index.html">
                 <img src="./assets/svg/hogar.svg" alt="">
                 <p>Home</p>
             </a>
-            <a  href="productos.html"  class="modal-footer-staff">
+            <a href="productos.html" class="modal-footer-staff">
                 <img src="./assets/svg/prismaticos.svg" alt="">
                 <p>Products </p>
             </a>
-            <a  href="categories.html"  class="modal-footer-staff">
+            <a href="categories.html" class="modal-footer-staff">
                 <img src="./assets/svg/editar.svg" alt="">
                 <p>Categorías </p>
             </a>
-            <a  href="buscar.html"  class="modal-footer-staff">
+            <a href="buscar.html" class="modal-footer-staff">
                 <img src="./assets/svg/prismaticos.svg" alt="">
                 <p>Buscar </p>
             </a>
@@ -616,7 +706,7 @@
             });
 
 
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 if ($(this).scrollTop() > 0) {
                     $('.button-up').removeClass('button-inactive');
                 } else {
